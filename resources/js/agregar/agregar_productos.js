@@ -132,6 +132,10 @@ function validarPeso(datos) {
 
 
 $("#p_imagen").blur(function () {
+
+    var tipoimagen = ".glb";
+    var peso = 30024;
+
     var dato = $("#p_imagen").val();
     if (dato.trim() != '') {
         $('#p_imagen').removeClass('is-invalid');
