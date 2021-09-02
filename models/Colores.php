@@ -2,7 +2,8 @@
 class Colores
 {
 
-    private $col_id, $col_nombre, $col_codigo, $create_time, $update_time;
+    private $col_id;
+    private $col_nombre, $col_codigo, $create_time, $update_time;
     public function getCol_id()
     {
         return $this->col_id;

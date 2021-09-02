@@ -16,9 +16,9 @@ $("#login").click(function (e) {
 			type: "POST",
 			data: datos
 		}).done(function (respuesta) {
-			/* alert("dentro1"); */
+			
 			if (respuesta.estado === "ok") {
-				/* alert("dentro2"); */
+				
 				//console.log(JSON.stringify(respuesta));
 
 				$('#button').addClass('text-center');
