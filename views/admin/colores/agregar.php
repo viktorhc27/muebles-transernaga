@@ -80,7 +80,7 @@
 <script type="text/javascript" src="https://chir.ag/projects/ntc/ntc.js"></script>
 <script>
     $("#btndGuardar").click(function(e) {
-
+//commit de prueba
         e.preventDefault();
         var nombre = $("#nombrecolor").val();
         var codigo = $("#codigo").val();
