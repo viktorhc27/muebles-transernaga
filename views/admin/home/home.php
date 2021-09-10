@@ -2,6 +2,7 @@
 require_once "../../../models/Conexion.php";
 require_once "../../../models/Employees.php";
 require_once "../../../models/Productos.php";
+//pruebas
 session_start();
 if (isset($_SESSION['user'])) {
 

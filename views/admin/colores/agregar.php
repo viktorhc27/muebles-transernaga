@@ -1,5 +1,5 @@
 <link rel='stylesheet' href='../../../resources/spectrum/spectrum.css' />
-
+<!-- pruebas -->
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <div class="content-header">
