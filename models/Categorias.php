@@ -3,7 +3,9 @@
 class Categorias
 {
 
-    private $cat_id, $cat_nombre, $cat_estado, $cat_slug, $cat_img, $create_time, $update_time;
+    private $cat_id;
+    private $cat_nombre;
+    private $cat_estado, $cat_slug, $cat_img, $create_time, $update_time;
 
     public function getCat_id()
     {
